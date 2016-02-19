@@ -1,0 +1,29 @@
+generate fonts
+==============
+sudo grub-mkfont \
+--output=Ubuntu-Light30.pf2 --size=30 \
+/usr/share/fonts/truetype/ubuntu-font-family/Ubuntu-L.ttf
+
+sudo grub-mkfont \
+--output=NotoSans-Regular22.pf2 --size=22 \
+/usr/share/fonts/truetype/noto/NotoSans-Regular.ttf
+
+
+create theme dir
+================
+/boot/grub/themes/itmitica/
+
+
+use grub customizer
+===================
+add/remove: font file, images
+make changes to theme.txt
+(it will be easier than going through all the grub config files in /etc
+ and than using the terminal to build the grub.cfg file
+ or to copy to theme folder in /boot, all requiring elevated privileges)
+(save will update grub.cfg)
+
+
+reboot
+======
+to test the theme modifications
