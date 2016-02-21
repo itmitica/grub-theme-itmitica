@@ -11,21 +11,16 @@ desktop-image: "itmiticafhd.png"
 
 + boot_menu {
   id  = "boot_menu"
-  left  = 5%
-  width = 90%
-  top = 15%
-  height  = 100%-15%-65
+  left  = 10%
+  width = 80%
+  top = 20%
+  height  = 100%-20%-65
   item_font = "Noto Sans Regular 22"
   item_color = "#808080"
   selected_item_color= "#fff"
   selected_item_pixmap_style = "select_*.png"
-  icon_height = 48
-  icon_width = 48
   item_height = 50
-  item_padding = 0
-  item_icon_space = 2
-  item_spacing = 0
-  scrollbar = false
+  scrollbar = true
 }
 
 + progress_bar {
