@@ -7,7 +7,6 @@ title-font: "Ubuntu Light 30"
 title-color: "#808080"
 title-text: "Installed OSes. Pick one."
 desktop-color: "#fff"
-desktop-image: "itmiticafhd.png"
 
 + boot_menu {
   id  = "boot_menu"
@@ -37,3 +36,11 @@ desktop-image: "itmiticafhd.png"
   text  = "@TIMEOUT_NOTIFICATION_LONG@"
 }
 
++ image {
+	id		= "logo"
+	top		= 100%-130-189
+	left	= 90%-568
+#	width	= 50%
+#	height	= 50%
+	file = "itmitica.png"
+}
